@@ -1,0 +1,57 @@
+{
+  "name": "twenty-app-looot",
+  "version": "0.1.0",
+  "description": "Twenty CRM app for looot: find the work email of a person and fill the industry and size of a company, as record buttons, workflow actions and AI tools.",
+  "license": "MIT",
+  "homepage": "https://looot.ai",
+  "author": {
+    "name": "looot",
+    "url": "https://looot.ai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loootai/twenty-app-looot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loootai/twenty-app-looot/issues"
+  },
+  "keywords": [
+    "twenty-app",
+    "twenty",
+    "twenty-crm",
+    "looot",
+    "enrichment",
+    "email-finder",
+    "email-verification",
+    "company-enrichment"
+  ],
+  "engines": {
+    "node": "^24.5.0",
+    "npm": "please-use-yarn",
+    "yarn": ">=4.0.2"
+  },
+  "packageManager": "yarn@4.13.0",
+  "scripts": {
+    "twenty": "twenty",
+    "lint": "oxlint -c .oxlintrc.json .",
+    "lint:fix": "oxlint --fix -c .oxlintrc.json .",
+    "typecheck": "tsgo --noEmit -p tsconfig.spec.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:unit": "vitest run --config vitest.unit.config.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.0",
+    "@types/react": "19.3.0",
+    "@typescript/native-preview": "7.0.0-dev.20260707.2",
+    "oxlint": "0.16.12",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "twenty-client-sdk": "2.44.0",
+    "twenty-sdk": "2.44.0",
+    "twenty-ui": "2.44.0",
+    "typescript": "5.9.3",
+    "vite-tsconfig-paths": "4.3.2",
+    "vitest": "4.1.11"
+  }
+}
