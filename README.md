@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/loootai/twenty-app-looot)](LICENSE) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 A [Twenty](https://twenty.com) CRM app for [looot](https://looot.ai). looot gives a workspace one key and
-one prepaid balance for 2,500+ data endpoints from 90+ providers. This app uses three of its jobs to fill
+one prepaid balance for 4,200+ data endpoints from 300+ providers. This app uses three of its jobs to fill
 gaps in people and company records.
 
 Status: source only. Not published to npm and not in the Twenty marketplace. It builds, typechecks and
